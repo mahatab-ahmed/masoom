@@ -2,10 +2,9 @@
     background-color:transparent;
 } */
 
-.jumbotron {
-    background-image: url("/assets/images/benjamin-davies-9b5dvrjb05g-unsplash.jpg");
-    background-size: cover;
-    height: 500px;
+
+  body{
+    font-family: 'Playfair Display', serif;
   }
 
 /* Style the navbar */
@@ -27,6 +26,7 @@
   /* Page content */
   .content {
     padding: 16px;
+    margin-top: 12px;
   }
   
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -39,4 +39,90 @@
   /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
   .sticky + .content {
     padding-top: 60px;
+  }
+
+.text{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+.login-box{
+  margin-top: 45px;
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 45px;
+  
+}
+
+
+.textbox{
+  width: 300%;
+  overflow: hidden;
+  font-size: 20px;padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid;
+}
+.textbox input {
+  width: 100%;
+}
+
+.footer{
+  width: 100%;
+  display: block;
+  overflow: hidden;
+
+  padding: 70px 0;
+  box-sizing: border-box;
+  background-color:rgb(110, 110, 160)
+}
+
+.inner-footer{
+display: block;
+margin: 0 auto;
+width: 1100px;
+height: 100%;
+}
+
+.inner-footer .logo-container{
+width: 35%;
+float: left;
+height: 100%;
+display: block;
+}
+.inner-footer .logo-container img{
+  width: 60px;
+  height: auto;
+
+}
+.inner-footer .footer-third{
+  width: calc(21.46464548% -20px);
+  margin-right: 10px;
+  float: left;
+  height: 100%;
+}
+.inner-footer .footer-third:nth-child(:last-child ){
+margin-right: 0px;
+}
+.inner-footer .footer-third h1{
+font-family: Arial, Helvetica, sans-serif;
+color: #f2f2f2;
+font-size: 22px;
+display: block;
+width: 100%;
+margin-bottom: 20px;
+
+}
+.inner-footer .footer-third a{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f2f2f2;
+  font-size: 18px;
+  font-weight: 200px;
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  
   }
